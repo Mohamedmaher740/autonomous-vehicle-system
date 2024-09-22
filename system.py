@@ -11,7 +11,7 @@ class Vehicle:
 
     def move(self, distance):
         
-        # Method 1 >> canceled because bugs in the code
+        # Method 1 >> canceled because bugs in the method
         """
         self.position['x'] += round((math.sin(self.direction))*distance , 2)
         self.position['y'] += round((math.cos(self.direction))*distance , 2)
